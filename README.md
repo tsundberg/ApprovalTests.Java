@@ -80,7 +80,24 @@ More Info
 - [Blog](http://blog.approvaltests.com/)
 - [Getting Started Doc](https://github.com/approvals/ApprovalTests.Java/raw/master/build/resources/approval_tests/documentation/ApprovalTest%20-%20Getting%20Started.pdf)
 
-	
+Building
+---
+
+Build using Ant in the directory `build`
+
+There are four targets:
+
+```
+ant 'Publish    ApprovalTests'
+ant 'Publish    ExtensionMethods'
+ant 'Publish    Lambdas'
+ant 'Publish    HtmlLocker'
+```
+
+Notice that the targets contains spaces that must be correct. Also notice
+that the `'` around the target is needed so we can call a target with
+spaces in the name.
+
 ## LICENSE
 [Apache 2.0 License](https://github.com/SignalR/SignalR/blob/master/LICENSE.md)
 
