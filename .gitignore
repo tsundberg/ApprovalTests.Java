@@ -6,3 +6,8 @@
 
 *.war
 *.ear
+
+.gradle
+.idea
+*.iml
+target
