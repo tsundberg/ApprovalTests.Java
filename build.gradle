@@ -1,0 +1,9 @@
+plugins {
+    id 'java'
+}
+
+project.buildDir = 'target'
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.6'
+}
